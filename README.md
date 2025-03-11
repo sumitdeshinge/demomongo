@@ -63,9 +63,11 @@ mvn clean install
 mvn spring-boot:run
 ```
 3. API Endpoints
+```sh
 List Members: GET http://localhost:8083/members
 Get Member by ID: GET http://localhost:8083/members/{id}
 Add Member: POST http://localhost:8083/members (JSON Body)
+```
 
 ### 5️⃣ Frontend Setup
 1. Navigate to frontend folder:
