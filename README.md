@@ -48,7 +48,7 @@ mongod --dbpath /data/db
 
 2. Verify MongoDB Connection
 ```sh
-mongo
+mongosh
 use kitchensink
 ```
 
